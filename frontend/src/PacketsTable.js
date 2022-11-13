@@ -96,7 +96,7 @@ export class PacketsTable extends React.Component {
   render() {
     const columns = [
       {
-        title: "Key",
+        title: "Time",
         dataIndex: "key",
         key: "key",
         width: 80,
@@ -104,19 +104,19 @@ export class PacketsTable extends React.Component {
         sorter: (a, b) => a.key - b.key,
       },
       {
-        title: "From",
+        title: "User",
         dataIndex: "from",
         key: "from",
         ...this.getColumnSearchProps("from"),
       },
       {
-        title: "To",
+        title: "Syscall",
         dataIndex: "to",
         key: "to",
         ...this.getColumnSearchProps("to"),
       },
       {
-        title: "Protocol",
+        title: "Path",
         dataIndex: "dProtocol",
         key: "protocol",
         ...this.getColumnSearchProps("dProtocol"),

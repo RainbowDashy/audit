@@ -101,7 +101,7 @@ const App = () => {
   return (
     <Layout className="layout">
       <Header>
-        <span className="logo">Packets</span>
+        <span className="logo">Audit</span>
         <span id="filter">
           <Input id="filter-input" placeholder="input some filter" value={filter}
             onChange={handleFilterChange}
@@ -112,7 +112,7 @@ const App = () => {
           >Apply</Button>
         </span>
         <span id="network-device">
-          <span className="label">choose a network device</span>
+          <span className="label">choose a device</span>
           <Select className="network-device-select" defaultValue={defaultDevice} value={device} onChange={handleDeviceChange}>
             <Option value="None" key="None" disabled>None</Option>
             {
@@ -151,7 +151,7 @@ const App = () => {
                   setSelectedRows(records);
                 }}
               /> :
-              <>Packets List<Skeleton /*active*/ /></>
+              <>Log List<Skeleton /*active*/ /></>
           }
         </div>
         <div id="packets-info">
@@ -178,12 +178,12 @@ const App = () => {
                   }
                 </Collapse>
               </>:
-              <>Packets Info<Skeleton /*active*/ /></>
+              <>Log Info<Skeleton /*active*/ /></>
           }
         </div>
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Packets ©2021 Created by Kelo
+        Audit ©2022 Created by Kelo
       </Footer>
     </Layout>
   );
