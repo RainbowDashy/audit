@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+.ant-layout {
+  height: 100%;
+}
+.ant-layout-content {
+  flex-grow: 1;
+  margin-top: 16px;
+}
+.logo, #filter, #network-device {
+  height: 31px;
+  font-size: 20px;
+}
+.logo {
+  width: 120px;
+  padding: 13px 10px;
+  margin-right: 16px;
+  background: rgba(238, 255, 162, 0.8);
+  border-radius: 10px;
+}
+#filter-input {
+  width: calc(100% - 650px);
+}
+#filter-apply-button {
+  margin-left: 10px;
+}
+#network-device .label {
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+#network-device {
+  width: 300px;
+  white-space: nowrap;
+  /* float: right; */
+}
+.network-device-select {
+  min-width: 100px;
+}
+#started, #clear, #save {
+  margin-left: 10px;
+}
+
+#packets-list {
+  height: 60%;
+  padding: 24px;
+  background: #fff;
+}
+#packets-info {
+  height: 40%;
+  padding: 24px;
+  background: rgb(230, 230, 230);
+  overflow-y: overlay;
+}
+#packets-info p {
+  background: rgb(230, 230, 230);
+}
+/* .packets-list-table {
+  height: 100%;
+  overflow-y: hidden;
+}
+.packets-list-table:hover {
+  overflow-y: overlay;
+} */
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 6px 16px;
+}
+
+.ant-collapse-content {
+  font-size: 12px;
+}
