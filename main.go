@@ -28,7 +28,9 @@ func main() {
 	}()
 
 	http.HandleFunc("/api/log", handler)
-	http.ListenAndServe(":6657", nil)
+	if err := http.ListenAndServe(":6657", nil); err != nil {
+		fmt.Printf("%v\n", err)
+	}
 }
 
 func handler(w http.ResponseWriter, _ *http.Request) {
