@@ -31,7 +31,7 @@ func main() {
 	http.ListenAndServe(":6657", nil)
 }
 
-func handler(w http.ResponseWriter, req *http.Request) {
+func handler(w http.ResponseWriter, _ *http.Request) {
 	fmt.Fprint(w, line.String())
 }
 
