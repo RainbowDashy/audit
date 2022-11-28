@@ -154,7 +154,7 @@ export class PacketsTable extends React.Component {
     return <Table columns={columns} dataSource={this.props.dataSource}
       onRow={this.props.onRow}
       rowSelection={rowSelection}
-      scroll={{ y: "calc(60vh - 210px)" }}
+      scroll={{ y: "calc(80vh)" }}
       pagination={{ defaultPageSize: 50 }}
       size="small"
     />;
