@@ -44,6 +44,7 @@ void get_fullname(const char *pathname,char *fullname)
 {
 	struct dentry *parent_dentry = current->fs->pwd.dentry;
     char buf[MAX_LENGTH];
+    memset(buf, 0, sizeof(buf));
 
 
         // pathname could be a fullname
