@@ -1,313 +1,375 @@
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/libc.so.6" other success
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other success
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/en_US.utf8" other success
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/en_US.utf8" Write failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/rce" other success
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/¿jÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/êiÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/ mÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/êhÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/†kÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/@nÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/–iÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/†mÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/iÁ∞(V" other success
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/‡sÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/êtÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/‡ÑÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/¿áÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/–tÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/@ÜÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/–àÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/–uÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/pÖÁ∞(V" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/" other failed
-p0ny(1000) touch(12881) 2022-11-06 14:36:03 "/home/TestAudit/PuÁ∞(V" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libaudit.so.1" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/pÏöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/0Ïöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/re" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/en_US.utf8" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" Read/Write success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libnss_files.so.2" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/›æ˘ıU" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libpam.so.0" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/`˚æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/Íæ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/–˙æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿˝æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@Ëæ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@¸æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/‡˛æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@˙æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/†˚æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@˛æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿˘æ˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit//etc/sudoers.d" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-root(0) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libnss_systemd.so.2" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/·öäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/‡Îöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libcrypt.so.1" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/`Ÿöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libcap.so.2" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿Âöäˇ" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/libpam_misc.so.0" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/	" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit//run/sudo/ts/p0ny" Read/Write success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/êPø˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/ Q¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@P¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/ÄS¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/@O¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/`ﬁø˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/∞ßø˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/`Q¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit/¿O¿˘ıU" other failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:09 "/home/TestAudit//dev/pts/2" Read/Write success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:11 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:11 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:11 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:11 "/home/TestAudit/pts/2" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit//dev/pts/2" Read/Write success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:13 "/home/TestAudit/pts/2" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit//dev/pts/2" Read/Write success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" Write failed
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-p0ny(1000) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) sudo(12882) 2022-11-06 14:36:15 "/home/TestAudit/pts/2" other success
-root(0) sudo(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libpam.so.0" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/†5%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/Ä5%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/`5%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/@5%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libnss_files.so.2" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/‡7%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libselinux.so.1" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/re" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/‡7%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/‡7%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/‡7%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libcrypt.so.1" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/`%%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libcap.so.2" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/¿1%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/librt.so.1" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/Ä%%Œ˝" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/«‡=" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/libnss_systemd.so.2" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit//etc/security/limits.d" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/r" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/pts/2" other success
-root(0) su(12883) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12884) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12884) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) su(12884) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/libtinfo.so.6" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/y¿¶˛" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/y¿¶˛" Read/Write success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/libnss_files.so.2" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/@" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/INTERNAL" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/ o[V" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/libc.so.6" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/libnss_files.so.2" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/Ä;" other success
-root(0) groups(12886) 2022-11-06 14:36:15 "/home/TestAudit/rce" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/ o[V" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/HISTFILESIZE" other success
-root(0) lesspipe(12888) 2022-11-06 14:36:15 "/home/TestAudit/libc.so.6" other success
-root(0) lesspipe(12888) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) lesspipe(12888) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) basename(12889) 2022-11-06 14:36:15 "/home/TestAudit/libc.so.6" other success
-root(0) basename(12889) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) basename(12889) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) dirname(12891) 2022-11-06 14:36:15 "/home/TestAudit/libc.so.6" other success
-root(0) dirname(12891) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) dirname(12891) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) dircolors(12893) 2022-11-06 14:36:15 "/home/TestAudit/libc.so.6" other success
-root(0) dircolors(12893) 2022-11-06 14:36:15 "/home/TestAudit/" other success
-root(0) dircolors(12893) 2022-11-06 14:36:15 "/home/TestAudit/en_US.utf8" other success
-root(0) dircolors(12893) 2022-11-06 14:36:15 "/home/TestAudit/INTERNAL" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/HISTFILESIZE" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit//root/.bash_history" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit/b" other success
-root(0) bash(12884) 2022-11-06 14:36:15 "/home/TestAudit//etc/inputrc" other success
-root(0) touch(12894) 2022-11-06 14:36:20 "/home/TestAudit/libc.so.6" other success
-root(0) touch(12894) 2022-11-06 14:36:20 "/home/TestAudit/" other success
-root(0) touch(12894) 2022-11-06 14:36:20 "/home/TestAudit/en_US.utf8" other success
-root(0) touch(12894) 2022-11-06 14:36:20 "/home/TestAudit/en_US.utf8" Write success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/libselinux.so.1" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/–µÚ¸" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/∞µÚ¸" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/pµÚ¸" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/re" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/en_US.utf8" other success
-root(0) ls(12895) 2022-11-06 14:36:21 "/home/TestAudit/en_US.utf8" other success
-root(0) rm(12896) 2022-11-06 14:36:23 "/home/TestAudit/libc.so.6" other success
-root(0) rm(12896) 2022-11-06 14:36:23 "/home/TestAudit/" other success
-root(0) rm(12896) 2022-11-06 14:36:23 "/home/TestAudit/en_US.utf8" other success
-root(0) touch(12897) 2022-11-06 14:36:25 "/home/TestAudit/libc.so.6" other success
-root(0) touch(12897) 2022-11-06 14:36:25 "/home/TestAudit/" other success
-root(0) touch(12897) 2022-11-06 14:36:25 "/home/TestAudit/en_US.utf8" other success
-root(0) touch(12897) 2022-11-06 14:36:25 "/home/TestAudit/en_US.utf8" Write success
-root(0) cat(12898) 2022-11-06 14:36:26 "/home/TestAudit/libc.so.6" other success
-root(0) cat(12898) 2022-11-06 14:36:26 "/home/TestAudit/" other success
-root(0) cat(12898) 2022-11-06 14:36:26 "/home/TestAudit/
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/libselinux.so.1,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/√†&nk√ø,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/√Ä&nk√ø,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/¬Ä&nk√ø,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/re,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,ls,4584,2022-11-28 13:58:08,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/libselinux.so.1,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬†"rl√æ,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬Ä"rl√æ,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/@"rl√æ,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/re,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/rce,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/√êK¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/ N¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬ÄL¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬êM¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/√êN¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/M¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/rce,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/libnss_files.so.2,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/rce,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/rce,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/0Y¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/√Ä√ã¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬ê√ä¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/ √é¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬ê[¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬†√å¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/@√è¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/√ê√ä¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/¬†√é¬ô√ãU,other,failed
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/\¬ô√ãU,other,success
+p0ny,1000,ls,4585,2022-11-28 13:58:17,/home/TestAudit/rce,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/libc.so.6,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/en_US.utf8,Write,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/rce,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√Ä¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬ê¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/ ¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬ê¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬†¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/@¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√ê¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬†¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬û√ÄU,other,success
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√†#¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/¬ê$¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√†4¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√Ä7¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√ê$¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/@6¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√ê8¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/√ê%¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/p5¬û√ÄU,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/,other,failed
+p0ny,1000,touch,4586,2022-11-28 13:58:24,/home/TestAudit/P%¬û√ÄU,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/libc.so.6,other,success
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,success
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/en_US.utf8,Write,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/rce,other,success
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√Ä√ä/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/¬ê√â/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/ √ç/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/¬ê√à/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/¬†√ã/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/@√é/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√ê√â/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/¬†√ç/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√â/¬êV,other,success
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√†√ì/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/¬ê√î/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√†√§/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√Ä√ß/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√ê√î/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/@√¶/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√ê√®/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/√ê√ï/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/p√•/¬êV,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/,other,failed
+p0ny,1000,touch,4587,2022-11-28 13:58:26,/home/TestAudit/P√ï/¬êV,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libaudit.so.1,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/p√ø√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/0√ø√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/re,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/en_US.utf8,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,Read/Write,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libnss_files.so.2,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/M√ë¬∂=V,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libpam.so.0,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/`k√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/Z√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√êj√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Äm√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@X√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@l√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√†n√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@j√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬†k√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@n√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Äi√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit//etc/sudoers.d,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+root,0,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libnss_systemd.so.2,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√∞√¥√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√†√æ√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libcrypt.so.1,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/`√¨√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libcap.so.2,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√∏√ë√≥√º,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/libpam_misc.so.0,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/	,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit//run/sudo/ts/p0ny,Read/Write,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬ê√Ä√ë¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/`√Ä√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@≈∏√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬Ä¬ø√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/√Ä√Ç√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬Ä≈∏√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@√Å√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬ÄN√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬∞√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/¬†√Ä√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/@√É√í¬∂=V,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit/,other,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:28,/home/TestAudit//dev/pts/3,Read/Write,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,Write,failed
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+p0ny,1000,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,sudo,4588,2022-11-28 13:58:31,/home/TestAudit/pts/3,other,success
+root,0,sudo,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libpam.so.0,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√ê¬ï¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬∞¬ï¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ê¬ï¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/p¬ï¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libnss_files.so.2,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ò¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libselinux.so.1,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/re,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ò¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ò¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ò¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libcrypt.so.1,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬ê¬Ö¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libcap.so.2,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/librt.so.1,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/¬∞¬Ö¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/√∞¬ë¬áj√Ω,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/libnss_systemd.so.2,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit//etc/security/limits.d,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/r,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/pts/3,other,success
+root,0,su,4589,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4590,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4590,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,su,4590,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/libtinfo.so.6,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/PVtU√º,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/PVtU√º,Read/Write,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/libnss_files.so.2,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/@,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/INTERNAL,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/ √¢√ãmU,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/libc.so.6,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/libnss_files.so.2,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/¬Ä;,other,success
+root,0,groups,4592,2022-11-28 13:58:31,/home/TestAudit/rce,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/ √¢√ãmU,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/HISTFILESIZE,other,success
+root,0,lesspipe,4594,2022-11-28 13:58:31,/home/TestAudit/libc.so.6,other,success
+root,0,lesspipe,4594,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,lesspipe,4594,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,basename,4595,2022-11-28 13:58:31,/home/TestAudit/libc.so.6,other,success
+root,0,basename,4595,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,basename,4595,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,dirname,4597,2022-11-28 13:58:31,/home/TestAudit/libc.so.6,other,success
+root,0,dirname,4597,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,dirname,4597,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,dircolors,4599,2022-11-28 13:58:31,/home/TestAudit/libc.so.6,other,success
+root,0,dircolors,4599,2022-11-28 13:58:31,/home/TestAudit/,other,success
+root,0,dircolors,4599,2022-11-28 13:58:31,/home/TestAudit/en_US.utf8,other,success
+root,0,dircolors,4599,2022-11-28 13:58:31,/home/TestAudit/INTERNAL,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/HISTFILESIZE,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit//root/.bash_history,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit/b,other,success
+root,0,bash,4590,2022-11-28 13:58:31,/home/TestAudit//etc/inputrc,other,success
+root,0,touch,4600,2022-11-28 13:58:32,/home/TestAudit/libc.so.6,other,success
+root,0,touch,4600,2022-11-28 13:58:32,/home/TestAudit/,other,success
+root,0,touch,4600,2022-11-28 13:58:32,/home/TestAudit/en_US.utf8,other,success
+root,0,touch,4600,2022-11-28 13:58:32,/home/TestAudit/en_US.utf8,Write,success
+root,0,touch,4601,2022-11-28 13:58:34,/home/TestAudit/libc.so.6,other,success
+root,0,touch,4601,2022-11-28 13:58:34,/home/TestAudit/,other,success
+root,0,touch,4601,2022-11-28 13:58:34,/home/TestAudit/en_US.utf8,other,success
+root,0,touch,4601,2022-11-28 13:58:34,/home/TestAudit/en_US.utf8,Write,success
+root,0,touch,4602,2022-11-28 13:58:35,/home/TestAudit/libc.so.6,other,success
+root,0,touch,4602,2022-11-28 13:58:35,/home/TestAudit/,other,success
+root,0,touch,4602,2022-11-28 13:58:35,/home/TestAudit/en_US.utf8,other,success
+root,0,touch,4602,2022-11-28 13:58:35,/home/TestAudit/en_US.utf8,Write,success
+root,0,bash,4590,2022-11-28 13:58:42,/home/TestAudit/,Write,success
+root,0,cat,4604,2022-11-28 13:58:45,/home/TestAudit/libc.so.6,other,success
+root,0,cat,4604,2022-11-28 13:58:45,/home/TestAudit/,other,success
+root,0,cat,4604,2022-11-28 13:58:45,/home/TestAudit/en_US.utf8,other,success
+root,0,cat,4604,2022-11-28 13:58:45,/home/TestAudit/en_US.utf8,other,success
+root,0,bash,4605,2022-11-28 13:58:50,/home/TestAudit/,Write,success
+root,0,touch,4605,2022-11-28 13:58:50,/home/TestAudit/libc.so.6,other,success
+root,0,touch,4605,2022-11-28 13:58:50,/home/TestAudit/,other,success
+root,0,touch,4605,2022-11-28 13:58:50,/home/TestAudit/en_US.utf8,other,success
+root,0,touch,4605,2022-11-28 13:58:50,/home/TestAudit/en_US.utf8,Write,success
+root,0,cat,4606,2022-11-28 13:58:53,/home/TestAudit/libc.so.6,other,success
+root,0,cat,4606,2022-11-28 13:58:53,/home/TestAudit/,other,success
+root,0,cat,4606,2022-11-28 13:58:53,/home/TestAudit/en_US.utf8,other,success
+root,0,cat,4606,2022-11-28 13:58:53,/home/TestAudit/en_US.utf8,other,success
