@@ -34,6 +34,7 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, _ *http.Request) {
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 	fmt.Fprint(w, line.String())
 }
 
