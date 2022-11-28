@@ -22,14 +22,14 @@ const App = () => {
   const [selectedRows, setSelectedRows] = useState([]);
 
   // findAllDevs: init at the first time
-  useEffect(() => {
+  /* useEffect(() => {
     (async function () {
       let data = await tryRpc("Packets.FindAllDevs", "something went wrong with finding all devices");
       if (data !== null) {
         setDevices(data);
       }
     })()
-  }, []);
+  }, []); */
 
   // get Packet data
   useEffect(() => {
@@ -50,10 +50,6 @@ const App = () => {
   }, [started]);
 
   async function handleStarted() {
-    if (device === defaultDevice) {
-      message.warn("please choose a network device");
-      return;
-    }
     let data = null;
     if (started) {
       data = await tryRpc("Packets.Close", "close failed");
@@ -152,33 +148,6 @@ const App = () => {
                 }}
               /> :
               <>Log List<Skeleton /*active*/ /></>
-          }
-        </div>
-        <div id="packets-info">
-          {
-            selectedData !== null ?
-              <>
-                <Collapse>
-                  <Panel header={`Basic | Key ${selectedData.key} | ${selectedData.dFrom} -> ${selectedData.dTo}`} key="-2">
-                    <pre>{selectedData.basicInformation}</pre>
-                  </Panel>
-                  <Panel header="Full Data" key="-1"><pre>{selectedData.fullData}</pre></Panel>
-                  {
-                    selectedData.layer.map((v, index) => (
-                      <Panel header={`Layer ${v.layerNumber} -- ${v.layerName}`} key={index}>
-                        <pre>
-                          {
-                            v.options !== null ?
-                              `Options: ${v.options.join(" ")}\nData:\n${v.data}`:
-                              `Data:\n${v.data}`
-                          }
-                        </pre>
-                      </Panel>
-                    ))
-                  }
-                </Collapse>
-              </>:
-              <>Log Info<Skeleton /*active*/ /></>
           }
         </div>
       </Content>
