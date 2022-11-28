@@ -41,12 +41,12 @@
 }
 
 #packets-list {
-  height: 60%;
+  height: 100%;
   padding: 24px;
   background: #fff;
 }
 #packets-info {
-  height: 40%;
+  height: 0%;
   padding: 24px;
   background: rgb(230, 230, 230);
   overflow-y: overlay;

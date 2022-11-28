@@ -17,36 +17,15 @@ class FunctionHandler {
 
 export class Item {
   constructor(rawData) {
-    this.key = rawData.key;
-    this.fullData = null;
-    this.fullDataLength = null;
-    this.from = null;
-    this.to = null;
-    this.fromPort = null;
-    this.toPort = null;
-    this.layer = [];
-    this._protocol = null;
-    this.protocol = null;
-    this._rawData = rawData;
-
-    let tmpData;
-    let handler = new FunctionHandler();
-    rawData.packet.split("\n").forEach(v => {
-      if (/FULL PACKET DATA \((\d+) bytes\)/.test(v)) {
-        let length = RegExp.$1;
-        handler.run(tmpData);
-        handler.change(this.handleFullPacker.bind(this, length));
-        tmpData = "";
-      } else if (/^--- Layer (\d+) ---$/.test(v)) {
-        let layerNumer = RegExp.$1;
-        handler.run(tmpData);
-        handler.change(this.handleLayer.bind(this, layerNumer))
-        tmpData = "";
-      } else {
-        tmpData += v + "\n";
-      }
-    });
-    handler.run(tmpData);
+    let strArr = rawData.split(",");
+    this.username = strArr[0];
+    this.uid = strArr[1];
+    this.commandname = strArr[2];
+    this.pid = strArr[3];
+    this.logtime = strArr[4];
+    this.logpath = strArr[5];
+    this.opentype = strArr[6];
+    this.openresult = strArr[7];
   }
   handleFullPacker(length, data) {
     this.fullDataLength = length;
@@ -148,18 +127,12 @@ export function clear() {
 export async function append() {
   let newData = await tryRpc("Packets.Get", "get failed");
   if (newData !== null) {
-    newData = newData.map(v => {
+    newData = newData.split("\n").map(v => {
       v = new Item(v);
-      let n = null;
-      if (v._protocol === "Fragment")
-        n = assemblePool.push(v);
-      if (n == null)
-        return v;
-      else
-        return [v, n];
+      return v;
     });
     newData = newData.flat();
-    data = data.concat(newData);
+    data = newData;
     return true;
   }
   return false;
