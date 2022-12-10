@@ -108,8 +108,7 @@ int AuditOpenat(struct pt_regs *regs, char *pathname, int ret)
     memset(buffer, 0, size);
 
     cred = current_cred();
-    *((int *)buffer) = cred->uid.val;
-    ; // uid
+    *((int *)buffer) = cred->uid.val; // uid
     *((int *)buffer + 1) = current->pid;
     *((int *)buffer + 2) = regs->dx; // regs->dx: mode for open file
     *((int *)buffer + 3) = ret;
@@ -131,22 +130,6 @@ int AuditWrite(struct pt_regs *regs, int ret)
 
     memset(fullname, 0, PATH_MAX);
     memset(auditpath, 0, PATH_MAX);
-
-    int fd = regs->ax;
-
-    int i = 0;
-    while (fd)
-    {
-        fullname[i++] = '0' + fd % 10;
-        fd /= 10;
-    }
-
-    for (int j = 0; j < i / 2; ++j)
-    {
-        char t = fullname[i - j - 1];
-        fullname[i - j - 1] = fullname[j];
-        fullname[j] = t;
-    }
 
     char *tmp;
     char *pathname;
@@ -198,13 +181,11 @@ int AuditWrite(struct pt_regs *regs, int ret)
     memset(buffer, 0, size);
 
     cred = current_cred();
-    *((int *)buffer) = cred->uid.val;
-    ; // uid
+    *((int *)buffer) = cred->uid.val; // uid
     *((int *)buffer + 1) = current->pid;
     *((int *)buffer + 2) = -fd - 1; // -fd-1 represents write syscall
     *((int *)buffer + 3) = ret;
     strcpy((char *)(4 + (int *)buffer), commandname);
-
     strcpy((char *)(4 + TASK_COMM_LEN / 4 + (int *)buffer), fullname);
 
     netlink_sendmsg(buffer, size);
