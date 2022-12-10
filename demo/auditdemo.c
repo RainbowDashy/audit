@@ -134,7 +134,6 @@ int main(int argc, char *argv[])
 		printf("Waring: can not create log file\n");
 		exit(1);
 	}
-	printf("1111");
 	fflush(stdout);
 	// Loop to get message
 	while (1)
@@ -143,7 +142,6 @@ int main(int argc, char *argv[])
 		char *file_path;
 		char *commandname;
 
-		printf("2110");
 		fflush(stdout);
 		recvmsg(sock_fd, &msg, 0);
 		uid = *((unsigned int *)NLMSG_DATA(nlh));
