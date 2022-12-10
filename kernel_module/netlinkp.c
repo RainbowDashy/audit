@@ -127,7 +127,7 @@ int AuditWrite(struct pt_regs *regs, int ret)
     void *buffer;      // = kmalloc(size, 0);
     const struct cred *cred;
     int fd;
-    fd = regs->ax;
+    fd = regs->di;
 
     memset(fullname, 0, PATH_MAX);
     memset(auditpath, 0, PATH_MAX);
