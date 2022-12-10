@@ -47,16 +47,16 @@ asmlinkage long hacked_openat(struct pt_regs *regs)
 {
 
 	long ret;
-	char buffer[path_max];
+	char buffer[PATH_MAX];
 	long nbytes;
 
-	nbytes = strncpy_from_user(buffer, (char *)regs->bx, path_max);
+	nbytes = strncpy_from_user(buffer, (char *)regs->bx, PATH_MAX);
 
 	// printk("info:   hooked sys_openat(), file name:%s(%ld bytes)",buffer,nbytes);
 
 	ret = orig_openat(regs);
 
-	auditopenat(regs, buffer, ret);
+	AuditOpenat(regs, buffer, ret);
 
 	return ret;
 }
@@ -72,7 +72,7 @@ asmlinkage long hacked_write(struct pt_regs *regs)
 
 	ret = orig_write(regs);
 
-	auditwrite(regs, ret);
+	AuditWrite(regs, ret);
 
 	return ret;
 }
