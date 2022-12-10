@@ -15,6 +15,10 @@
 static u32 pid = 0;
 static struct sock *nl_sk = NULL;
 
+char auditpath[PATH_MAX];
+char fullname[PATH_MAX];
+char commandname[TASK_COMM_LEN];
+
 // 发送netlink消息message
 int netlink_sendmsg(const void *buffer, unsigned int size)
 {
@@ -80,15 +84,13 @@ void get_fullname(const char *pathname, char *fullname)
 
 int AuditOpenat(struct pt_regs *regs, char *pathname, int ret)
 {
-    char commandname[TASK_COMM_LEN];
-    char fullname[PATH_MAX];
     unsigned int size; // = strlen(pathname) + 32 + TASK_COMM_LEN;
     void *buffer;      // = kmalloc(size, 0);
-    char auditpath[PATH_MAX];
     const struct cred *cred;
 
     memset(fullname, 0, PATH_MAX);
     memset(auditpath, 0, PATH_MAX);
+    memset(commandname, 0, TASK_COMM_LEN);
 
     get_fullname(pathname, fullname);
 
@@ -121,17 +123,15 @@ int AuditOpenat(struct pt_regs *regs, char *pathname, int ret)
 
 int AuditWrite(struct pt_regs *regs, int ret)
 {
-    char commandname[TASK_COMM_LEN];
-    char fullname[PATH_MAX];
     unsigned int size; // = strlen(pathname) + 32 + TASK_COMM_LEN;
     void *buffer;      // = kmalloc(size, 0);
-    char auditpath[PATH_MAX];
     const struct cred *cred;
     int fd;
     fd = regs->ax;
 
     memset(fullname, 0, PATH_MAX);
     memset(auditpath, 0, PATH_MAX);
+    memset(commandname, 0, TASK_COMM_LEN);
 
     char *tmp;
     char *pathname;
