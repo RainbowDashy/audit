@@ -114,6 +114,7 @@ static void __exit audit_exit(void)
 	set_pte_atomic(pte, pte_mkwrite(*pte));
 
 	sys_call_table[__NR_openat] = (demo_sys_call_ptr_t)orig_openat;
+	sys_call_table[__NR_write] = (demo_sys_call_ptr_t)orig_write;
 
 	set_pte_atomic(pte, pte_clear_flags(*pte, _PAGE_RW));
 

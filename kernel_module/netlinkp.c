@@ -127,6 +127,8 @@ int AuditWrite(struct pt_regs *regs, int ret)
     void *buffer;      // = kmalloc(size, 0);
     char auditpath[PATH_MAX];
     const struct cred *cred;
+    int fd;
+    fd = regs->ax;
 
     memset(fullname, 0, PATH_MAX);
     memset(auditpath, 0, PATH_MAX);
@@ -135,7 +137,8 @@ int AuditWrite(struct pt_regs *regs, int ret)
     char *pathname;
     struct file *file;
     struct path *path;
-    struct files_struct *files = current->files;
+    struct files_struct *files;
+    files = current->files;
 
     spin_lock(&files->file_lock);
     file = fcheck_files(files, fd);
