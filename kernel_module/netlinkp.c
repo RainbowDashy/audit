@@ -4,6 +4,7 @@
 #include <net/netlink.h>
 #include <linux/sched.h>
 #include <linux/fs_struct.h>
+#include <linux/fdtable.h>
 #include <linux/limits.h>
 
 #define TASK_COMM_LEN 16
