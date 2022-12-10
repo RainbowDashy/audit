@@ -61,6 +61,7 @@ void Log(char *commandname, int uid, int pid, char *file_path, int flags, int re
 
 	strftime(logtime, sizeof(logtime), TM_FMT, localtime(&t));
 	fprintf(logfile, "%s,%d,%s,%d,%s,%s,%s,%s\n", username, uid, commandname, pid, logtime, file_path, opentype, openresult);
+	fflush(logfile);
 }
 
 void sendpid(unsigned int pid)
