@@ -16,7 +16,7 @@ class FunctionHandler {
 }
 
 export class Item {
-  constructor(rawData) {
+  constructor(rawData, id) {
     let strArr = rawData.split(",");
     this.username = strArr[0];
     this.uid = strArr[1];
@@ -26,6 +26,7 @@ export class Item {
     this.logpath = strArr[5];
     this.opentype = strArr[6];
     this.openresult = strArr[7];
+    this.key = id
   }
   handleFullPacker(length, data) {
     this.fullDataLength = length;
@@ -127,8 +128,8 @@ export function clear() {
 export async function append() {
   let newData = await tryRpc("Packets.Get", "get failed");
   if (newData !== null) {
-    newData = newData.split("\n").map(v => {
-      v = new Item(v);
+    newData = newData.split("\n").map((v, i) => {
+      v = new Item(v, i);
       return v;
     });
     newData = newData.flat();
