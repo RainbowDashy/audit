@@ -8,6 +8,7 @@ import (
 	"os"
 	"strings"
 	"time"
+	"unicode/utf8"
 
 	"github.com/pkg/errors"
 )
@@ -62,7 +63,7 @@ func readFile(path string) error {
 				return errors.Wrap(err, "failed to read from reader")
 			}
 			fields := strings.Split(content, ",")
-			if len(fields) >= 8 {
+			if len(fields) >= 8 && fields[5] != "" && utf8.Valid([]byte(fields[5])) {
 				line.WriteString(content)
 			}
 			if err == io.EOF {
