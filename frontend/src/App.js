@@ -50,11 +50,9 @@ const App = () => {
   }, [started]);
 
   async function handleStarted() {
-    let data = null;
+    let data = 0;
     if (started) {
-      data = await tryRpc("Packets.Close", "close failed");
     } else {
-      data = await tryRpc("Packets.Start", "start failed", device);
     }
     if (data !== null) {
       setStarted(!started);
@@ -62,7 +60,6 @@ const App = () => {
   }
 
   async function handleClear() {
-    await tryRpc("Packets.Clear", "clear failed");
     Data.clear();
     setData([]);
     setSelectedData(null);
@@ -91,7 +88,6 @@ const App = () => {
       message.warn("please start first");
       return;
     }
-    await tryRpc("Packets.SetFilter", "set failed", filter);
   }
 
   return (
