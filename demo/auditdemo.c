@@ -31,7 +31,7 @@ void Log(char *commandname, int uid, int pid, char *file_path, int flags, int re
 	char username[32];
 	struct passwd *pwinfo;
 	char openresult[10];
-	char opentype[16];
+	char opentype[32];
 	if (ret > 0)
 		strcpy(openresult, "success");
 	else
@@ -44,13 +44,13 @@ void Log(char *commandname, int uid, int pid, char *file_path, int flags, int re
 	else
 	{
 		if (flags & O_RDONLY)
-			strcpy(opentype, "Read");
+			strcpy(opentype, "openat[Read]");
 		else if (flags & O_WRONLY)
-			strcpy(opentype, "Write");
+			strcpy(opentype, "openat[Write]");
 		else if (flags & O_RDWR)
-			strcpy(opentype, "Read/Write");
+			strcpy(opentype, "openat[Read/Write]");
 		else
-			strcpy(opentype, "other");
+			strcpy(opentype, "openat[Other]");
 	}
 
 	time_t t = time(0);

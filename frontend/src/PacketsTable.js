@@ -134,13 +134,13 @@ export class PacketsTable extends React.Component {
         ...this.getColumnSearchProps("logpath"),
       },
       {
-        title: "opentype",
+        title: "syscall",
         dataIndex: "opentype",
         key: "opentype",
         ...this.getColumnSearchProps("opentype"),
       },
       {
-        title: "openresult",
+        title: "result",
         dataIndex: "openresult",
         key: "openresult",
         ...this.getColumnSearchProps("openresult"),
