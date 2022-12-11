@@ -98,33 +98,9 @@ const App = () => {
     <Layout className="layout">
       <Header>
         <span className="logo">Audit</span>
-        <span id="filter">
-          <Input id="filter-input" placeholder="input some filter" value={filter}
-            onChange={handleFilterChange}
-            onPressEnter={handleFilterApply}
-          />
-          <Button id="filter-apply-button" type="primary" size="large"
-            onClick={handleFilterApply}
-          >Apply</Button>
-        </span>
-        <span id="network-device">
-          <span className="label">choose a device</span>
-          <Select className="network-device-select" defaultValue={defaultDevice} value={device} onChange={handleDeviceChange}>
-            <Option value="None" key="None" disabled>None</Option>
-            {
-              devices.map(v => (
-                <Option value={v} key={v}>{v}</Option>
-              ))
-            }
-          </Select>
-        </span>
         <Button id="started" type="primary" size="large" shape="circle"
           icon={started ? <PauseCircleOutlined /> : <PlayCircleOutlined />}
           onClick={handleStarted}
-        ></Button>
-        <Button id="clear" type="primary" size="large" shape="circle"
-          icon={<ClearOutlined />}
-          onClick={handleClear}
         ></Button>
         <Button id="save" type="primary" size="large" shape="circle"
           icon={<SaveOutlined />}
