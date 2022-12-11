@@ -61,7 +61,10 @@ func readFile(path string) error {
 			if err != nil && err != io.EOF {
 				return errors.Wrap(err, "failed to read from reader")
 			}
-			line.WriteString(content)
+			fields := strings.Split(content, ",")
+			if len(fields) >= 8 {
+				line.WriteString(content)
+			}
 			if err == io.EOF {
 				break
 			}
